@@ -1,4 +1,7 @@
+import os
 import airbase
+
+os.makedirs("./data/bulgaria_verified", exist_ok=True)
 
 client = airbase.AirbaseClient()
 
